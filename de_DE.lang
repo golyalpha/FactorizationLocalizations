@@ -12,13 +12,13 @@
 factorization.factoryBlock.BARREL.name=Veraltetes Fass
 factorization.factoryBlock.DAYBARREL.name=Fass
 factorization.factoryBlock.DAYBARREL.format.name=%2$s-Fass
-factorization.factoryBlock.DAYBARREL.format2.name=%1$s %2$s-Fass
-factorization.factoryBlock.DAYBARREL.SILKY.name=Samtenes
+factorization.factoryBlock.DAYBARREL.format2.name=%1$ses %2$s-Fass
+factorization.factoryBlock.DAYBARREL.SILKY.name=Samten
 factorization.factoryBlock.DAYBARREL.SILKY.silkhint=Nutze eine Behutsamkeits-Axt
-factorization.factoryBlock.DAYBARREL.HOPPING.name=Trichterndes
-factorization.factoryBlock.DAYBARREL.LARGER.name=Größeres
-factorization.factoryBlock.DAYBARREL.STICKY.name=Klebriges
-factorization.factoryBlock.DAYBARREL.CREATIVE.name=Kreatives
+factorization.factoryBlock.DAYBARREL.HOPPING.name=Trichternd
+factorization.factoryBlock.DAYBARREL.LARGER.name=Größer
+factorization.factoryBlock.DAYBARREL.STICKY.name=Klebrig
+factorization.factoryBlock.DAYBARREL.CREATIVE.name=Kreativ
 factorization.factoryBlock.STAMPER.name=Stempler
 factorization.factoryBlock.STAMPER.hint=Stellt einen einzigen Gegenstand her
 factorization.factoryBlock.PACKAGER.name=Verpacker
@@ -26,9 +26,7 @@ factorization.factoryBlock.PACKAGER.hint=Verarbeitet 9 oder 4 Gegenstände
 factorization.factoryBlock.SLAGFURNACE.name=Schlackeofen
 factorization.factoryBlock.ROUTER.name=Router
 #factorization.factoryBlock.ROUTER.hint=Probiere auch Servos!
-factorization.factoryBlock.LAMP.name=§kxxxx§rlampe
-factorization.factoryBlock.LAMP.hint=Macht Urlaub
-factorization.factoryBlock.LAMP.shift=in Florida
+factorization.factoryBlock.LAMP.name=Magische Lampe
 factorization.factoryBlock.BATTERY.name=(Versteckte Batterie)
 factorization.factoryBlock.BATTERY.hint=Ungeeignet zum Herstellen
 item.factorization:charge_battery.name=Batterieblock
@@ -40,55 +38,82 @@ item.factorization:charge_battery.full=Hohe Ladung
 factorization.factoryBlock.LEYDENJAR.name=Leidener Flasche
 factorization.factoryBlock.LEYDENJAR.hint=Ladungsgrenze: 40-70
 factorization.factoryBlock.LEYDENJAR.perc=%s%% geladen
+factorization.factoryBlock.CREATIVE_CHARGE.name=Kreative Ladungsquelle
+factorization.factoryBlock.CREATIVE_CHARGE.shift=Grenzenlose Energie!
 factorization.factoryBlock.SOLARBOILER.name=Wasserdampfkessel
 factorization.factoryBlock.SOLARBOILER.hint=Benötigt eine Wärmequelle\nSaugt Wasser von unten an
 factorization.factoryBlock.STEAMTURBINE.name=Dampfturbine
 factorization.factoryBlock.STEAMTURBINE.hint=Konvertiert Dampf in Ladung
-item.factorization:mirror.name=Spiegel
+item.factorization.factoryBlock.MIRROR.name=Spiegel
 item.factorization:mirror.hint=Reflektiert Sonnenlicht auf Wasserdampfkessel
 factorization.factoryBlock.HEATER.name=Ofenheizgerät
-factorization.factoryBlock.LEADWIRE.name=Bleikabel
 factorization.factoryBlock.MIXER.name=Mixer
 factorization.factoryBlock.MIXER.hint=Verarbeitet formlose Herstellungsrezepte
 factorization.factoryBlock.CRYSTALLIZER.name=Kristallisierer
 factorization.factoryBlock.CERAMIC.name=Skulptur
-factorization.factoryBlock.SERVORAIL.name=Servoschiene
 factorization.factoryBlock.PARASIEVE.name=Parasieb
+factorization.factoryBlock.PARASIEVE.hint=Filtert Items
+factorization.gui.PARASIEVE=Parasieb
+
 factorization.factoryBlock.COMPRESSIONCRAFTER.name=Kompressionswerkbank
 factorization.factoryBlock.COMPRESSIONCRAFTER.hint=Fertigt mit Blöcken und Fässern
 factorization.factoryBlock.CALIOMETRIC_BURNER.name=Kaliometrischer Brenner
 factorization.factoryBlock.CALIOMETRIC_BURNER.hint=Platziere neben einen Wasserdampfkessel\nWandelt Nahrung in Hitze um
 factorization.factoryBlock.SOCKET_EMPTY.name=Sockelblock
+item.factorization:socket_info.name=Sockelwerkzeug
 item.factorization:socket/SOCKET_LACERATOR.name=Zerreißer
-item.factorization:socket/SOCKET_ROBOTHAND.name=Roboterarm
-item.factorization:socket/SOCKET_SHIFTER.name=Item-Schieber
+item.factorization:socket/robotHand.name=Roboterarm
+item.factorization:socket/itemShifter.name=Item-Schieber
+item.factorization:socket/scissors.name=Gewaltige Schere
+item.factorization:socket/scissors.hint=Platziere on Sockeln
+factorization.factoryBlock.HINGE.name=Scharnier
+#factorization.factoryBlock.HINGE.hint=§cExperimentell
+factorization.factoryBlock.SAP_TAP.name=Saftzapfer
+factorization.factoryBlock.SAP_TAP.hint=Extrahiert Saft aus sehr großen Bäumen
+factorization.factoryBlock.SAP_TAP.crowded=Es gibt bereits einen Saftzapfer in der Nähe
+factorization.factoryBlock.SAP_TAP.thecrowd=(Hier drüben)
+factorization.factoryBlock.SAP_TAP.belowlog=Muss unter einem Baumstamm platziert werden
+factorization.factoryBlock.SAP_TAP.info=Stämme: %1$s\nBlätter: %2$s\nStämme effektiv: %3$s\n%4$s / Saft
+factorization.factoryBlock.ANTHRO_GEN.name=Anthropiegenerator
+factorization.factoryBlock.ANTHRO_GEN.hint=Erzeugt Entheas aus Dorfbewohnern.\nVollkommen harmlos, versteht sich.
+factorization.factoryBlock.STEAM_SHAFT.name=Dampf-Wirbel-Ding
+factorization.factoryBlock.STEAM_SHAFT.hint=Wandelt Dampf in Rotationsenergie um
+factorization.factoryBlock.SHAFT_GEN.name=Ladungsgenerator
+factorization.factoryBlock.SHAFT_GEN.hint=Wandelt Rotationsenergie in Ladung um
+factorization.factoryBlock.BIBLIO_GEN.name=Bibliogenerator
+factorization.factoryBlock.BIBLIO_GEN.hint=Drehmoment aus Büchern!
+factorization:bibliogen.interference=Es gibt bereits einen Bibliogenerator in der Nähe
+factorization.factoryBlock.WATER_WHEEL_GEN.name=Wasserradbasis
+factorization.factoryBlock.WATER_WHEEL_GEN.hint=Erzeugt Rotationsenergie
+factorization.factoryBlock.WIND_MILL_GEN.name=Windmühlbasis
+factorization.factoryBlock.WIND_MILL_GEN.hint=Erzeugt Rotationsenergie
+factorization.factoryBlock.SHAFT.name=Schaft
+factorization.itemshaft.format.name=Schaft - %s
+factorization.itemshaft.shearedfalse=Verheddert
+factorization.itemshaft.shearedtrue=Normal
 
-tile.factorization.ResourceBlock.SILVERORE.name=Silbererz
-tile.factorization.ResourceBlock.SILVERBLOCK.name=Silberblock
-tile.factorization.ResourceBlock.LEADBLOCK.name=Bleiblock
-tile.factorization.ResourceBlock.DARKIRONBLOCK.name=Dunkeleisenblock
-tile.factorization:darkIronOre.name=Duneleisenerz
+
+tile.factorization.ResourceBlock.DARK_IRON_BLOCK.name=Dunkeleisenblock
+tile.factorization.ResourceBlock.COPPER_ORE.name=Kupfererz
+tile.factorization.ResourceBlock.COPPER_BLOCK.name=Kupferblock
+tile.factorization:darkIronOre.name=Dunkeleisenerz
+tile.factorization:fractured_bedrock.name=Brüchiges Grundgestein
+tile.factorization:blasted_bedrock.name=Zerschmettertes Grundgestein
+tile.factorization:BlockMatcher.name=Block-Vergleicher
+tile.factorization:blastBlock.name=Sprengblock
+tile.factorization:geyser.name=Geysir
+tile.factorization:extruder.name=Extruder
 
 fluid.factorization:fluid/steam=Dampf
 
-item.factorization:craftpacket.name=Werkpaket
-item.factorization:craftpacket_complete.name=Werkpaket
-item.factorization:tool/bag_of_holding.name=Beutel des Haltens
 item.factorization:tool/pocket_crafting_table.name=Taschen-Werkbank
 item.factorization:tool/pocket_crafting_table.yesNEI=Drücke %s, um von Überall zu verwenden
 item.factorization:tool/pocket_crafting_table.noNEI=Drücke %s zum Benutzen
-item.factorization:tool/wand_of_cooling.name=Stab der Kühlung
 item.factorization:diamond_shard.name=Diamantblockscherbe
 item.factorization:diamond_shard.hint=Explodierter Diamantblock
 item.factorization:diamond_shard.shift=Macht sogar mehr Spaß,\nals sie in Lava zu werfen!
 item.factorization:dark_iron_ingot.name=Dunkeleisenbarren
-item.factorization:lead_ingot.name=Bleibarren
-item.factorization:silver_ingot.name=Silberbarren
-item.factorization:router/item_filter.name=Gegenstandsfilter
-item.factorization:router/machine_filter.name=Maschinenfilter
-item.factorization:router/speed.name=Geschwindigkeitsboost
-item.factorization:router/thorough.name=Gründlichkeit
-item.factorization:router/bandwidth.name=Bandbreite
+item.factorization:copper_ingot.name=Kupferbarren
 item.factorization:acid.name=Schwefelsäure
 item.factorization:acid_regia.name=Königswasser
 item.factorization:magnet.name=Magnet
@@ -100,8 +125,6 @@ item.factorization:fan.hint=Platziere auf Motoren
 item.factorization:corkscrew.name=Korkenzieher
 item.factorization:corkscrew.hint=Platziere auf Motoren
 item.factorization:tool/charge_meter.name=Ladungsmeter
-item.factorization:router/eject.name=Auto-Ejektor
-item.factorization:barrel_upgrade.name=Veralteter Extra-Dimensionaler Speicher
 item.factorization:diamond_cutting_head.name=Diamant-Schneidekopf
 item.factorization:diamond_cutting_head.hint=Platziere auf Motoren
 item.factorization:sludge.name=Schlamm
@@ -113,10 +136,10 @@ item.factorization:sculptTool.ROTATE_GLOBAL=Global rotieren
 item.factorization:sculptTool.ROTATE_LOCAL=Lokal rotieren
 item.factorization:sculptTool.RESETTER=Rotation zurücksetzen
 item.factorization:sculptTool.MOLD=Skulptur formen
+item.factorization:sculptTool.MOLD.needs=Benötigt Holzstufe\n und %s Lehm
 item.factorization:ceramics/glaze_bucket.name=Glasur-Eimer
 item.factorization:tool/angular_saw.name=Würfelsäge
 item.factorization:tool/matrix_programmer.name=Logischer Matrix-Programmierer
-item.factorization:tool/matrix_programmer.hint=Gefunden in Dungeons, Bibliotheken und Bibliothekaren
 item.factorization:tool/matrix_programmer.shift=Antikes Code-Behältnis
 item.factorization:logic_matrix.name=Leere Logische Matrix
 item.factorization:logic_matrix_identifier.name=Logische Matrix: Identifikator
@@ -125,53 +148,11 @@ item.factorization:heat_hole.name=Hitzeloch
 item.factorization:nether_powder.name=Netherstein-Pulver
 item.factorization:rocket/rocket_engine.name=Raketentriebwerk
 item.factorization:rocket/rocket_fuel.name=Raketentreibstoff
+item.factorization:barrelCart.name=Fasswaggon
+item.factorization:barrelCart.known.name=Fasswaggon: %s
+entity.factorization.fz_minecart_barrel.name=Fasswaggon
 
 itemGroup.factorizationTab=Factorization
-
-#Ores
-item.factorization:ore/gravel/IRON.name=Dreckiger Eisenkies
-item.factorization:ore/gravel/GOLD.name=Dreckiger Goldkies
-item.factorization:ore/gravel/TIN.name=Dreckiger Zinnkies
-item.factorization:ore/gravel/COPPER.name=Dreckiger Kupferkies
-item.factorization:ore/gravel/GALENA.name=Dreckiger Silberkies
-item.factorization:ore/gravel/LEAD.name=Dreckiger Bleikies
-item.factorization:ore/gravel/NATURAL_ALUMINUM.name=Dreckiger Aluminiumkies
-item.factorization:ore/gravel/COBALT.name=Dreckiger Cobaltkies
-item.factorization:ore/gravel/ARDITE.name=Dreckiger Arditkies
-item.factorization:ore/gravel/DARKIRON.name=Dreckiger Dunkeleisenkies
-
-item.factorization:ore/clean/IRON.name=Sauberer Eisenkies
-item.factorization:ore/clean/GOLD.name=Sauberer Goldkies
-item.factorization:ore/clean/TIN.name=Sauberer Zinnkies
-item.factorization:ore/clean/COPPER.name=Sauberer Kupferkies
-item.factorization:ore/clean/GALENA.name=Sauberer Silberkies
-item.factorization:ore/clean/LEAD.name=Sauberer Bleikies
-item.factorization:ore/clean/NATURAL_ALUMINUM.name=Sauberer Aluminiumkies
-item.factorization:ore/clean/COBALT.name=Sauberer Cobaltkies
-item.factorization:ore/clean/ARDITE.name=Sauberer Arditkies
-item.factorization:ore/clean/DARKIRON.name=Sauberer Dunkeleisenkies
-
-item.factorization:ore/reduced/IRON.name=Reduzierte Eisenklumpen
-item.factorization:ore/reduced/GOLD.name=Reduzierte Goldklumpen
-item.factorization:ore/reduced/TIN.name=Reduzierte Zinnklumpen
-item.factorization:ore/reduced/COPPER.name=Reduzierte Kupferklumpen
-item.factorization:ore/reduced/SILVER.name=Reduzierte Silberklumpen
-item.factorization:ore/reduced/LEAD.name=Reduzierte Bleiklumpen
-item.factorization:ore/reduced/NATURAL_ALUMINUM.name=Reduzierte Aluminiumklumpen
-item.factorization:ore/reduced/COBALT.name=Reduzierte Cobaltklumpen
-item.factorization:ore/reduced/ARDITE.name=Reduzierte Arditklumpen
-item.factorization:ore/reduced/DARKIRON.name=Reduzierte Dunkeleisenklumpen
-
-item.factorization:ore/crystal/IRON.name=Kristallines Eisen
-item.factorization:ore/crystal/GOLD.name=Kristallines Gold
-item.factorization:ore/crystal/TIN.name=Kristallines Zinn
-item.factorization:ore/crystal/COPPER.name=Kristallines Kupfer
-item.factorization:ore/crystal/SILVER.name=Kristallines Silber
-item.factorization:ore/crystal/LEAD.name=Kristallines Blei
-item.factorization:ore/crystal/NATURAL_ALUMINUM.name=Kristallines Aluminium
-item.factorization:ore/crystal/COBALT.name=Kristallines Cobalt
-item.factorization:ore/crystal/ARDITE.name=Kristallines Ardit
-item.factorization:ore/crystal/DARKIRON.name=Kristallines Dunkeleisen
 
 #Glaze bases
 item.factorization:ceramics/glaze_bucket.base_common.name=Glasurbasis
@@ -179,23 +160,21 @@ item.factorization:ceramics/glaze_bucket.base_mimicry.name=Nachahmende Glasur
 item.factorization:ceramics/glaze_bucket.mimicry_prefix.name=Nachahmende Glasur:
 
 
-#Servos
-factorization:servo/component.name=Servo-Komponente
+Iterators
+item.factorization:servo/flat/static=Iteratorschiene
 item.factorization:servo/instruction_plate.name=Instruktionsplatte
 item.factorization:servo/commenter.name=Kommentierer
-item.factorization:servo/servo.name=Servo
+item.factorization:servo/servo.name=Iterator
+entity.factorization.factory_servo.name=Iterator
 item.factorization:servo/sprocket.name=Dunkeleisenzahnrad
 item.factorization:servo/servo_motor.name=Servomotor
-item.factorization:servo/decorator.fz.decorator.equipmentBay.name=Ladeplatz
-item.factorization:servo/decorator.fz.decorator.equipmentBay.hint=Rüstet von einem Inventar aus und ab.
-item.factorization:servo/decorator.fz.decorator.servoGrateWood.name=Hölzernes Servorost
-item.factorization:servo/decorator.fz.decorator.servoGrateIron.name=Eisernes Servorost
-item.factorization:servo/decorator.fz.decorator.servoGrateGlass.name=Gläsernes Servorost
+item.factorization:servo/decorator.fz.decorator.scancolor.name=Farbscanner
 item.factorization:servo/component.fz.instruction.pulse.name=Redstone-Puls
-item.factorization:servo/component.fz.instruction.boop.name=Boop
-item.factorization:servo/component.fz.instruction.boop.hint=Boops
+item.factorization:servo/component.fz.instruction.pulse.hint=Sende ein Signal aus
 item.factorization:servo/component.fz.instruction.setdirection.name=Stelle Richtung ein
+item.factorization:servo/component.fz.instruction.setdirection.hint=Richtungsangabe\nfür Kreuzungen
 item.factorization:servo/component.fz.instruction.rotatetop.name=Zeige nach oben
+item.factorization:servo/component.fz.instruction.rotatetop.hint=Stelle Ausrichtung ein
 item.factorization:servo/component.fz.instruction.sum.name=Summe
 item.factorization:servo/component.fz.instruction.sum.hint=Schiebe (pop + pop)
 item.factorization:servo/component.fz.instruction.product.name=Produkt
@@ -205,19 +184,43 @@ item.factorization:servo/component.fz.instruction.integervalue.hint=Schiebe eine
 item.factorization:servo/component.fz.instruction.dup.name=Dupliziere
 item.factorization:servo/component.fz.instruction.dup.hint=Kopiere einen Wert
 item.factorization:servo/component.fz.instruction.drop.name=Lasse fallen
-item.factorization:servo/component.fz.instruction.drop.hint=Entferne ein Integer
+item.factorization:servo/component.fz.instruction.drop.hint=Entferne einen Wert
 item.factorization:servo/component.fz.instruction.spin.name=Rotiere
+item.factorization:servo/component.fz.instruction.spin.hint=Wende auf der Schiene
 item.factorization:servo/component.fz.instruction.setspeed.name=Verstelle Geschwindigkeit
 item.factorization:servo/component.fz.instruction.cmp.name=Vergleiche
-item.factorization:servo/component.fz.instruction.jmp.name=Springe
+item.factorization:servo/component.fz.instruction.cmp.hint=Zwei Nummern werden\nein Boolescher Wert
+item.factorization:servo/component.fz.instruction.jmp.name=Überspringe
+item.factorization:servo/component.fz.instruction.jmp.hint=Ignoriere eine Instruktion?
 item.factorization:servo/component.fz.instruction.entryControl.name=Eingangskontrolle
+item.factorization:servo/component.fz.instruction.entryControl.hint=Anziehen oder abstoßen
 item.factorization:servo/component.fz.instruction.socketCtrl.name=Sockelsignal
+item.factorization:servo/component.fz.instruction.socketCtrl.hint=Verwende Sockelwerkzeug
 item.factorization:servo/component.fz.instruction.shifterctrl.name=Itemschiebekontrolle
+item.factorization:servo/component.fz.instruction.shifterctrl.hint=Gibt dem Schieber\neinen Wert
 item.factorization:servo/component.fz.instruction.trap.name=Falle
-item.factorization:servo/component.fz.instruction.trap.shift=Ja. Es ist eine.
+item.factorization:servo/component.fz.instruction.trap.hint=Warte auf Redstone
 item.factorization:servo/component.fz.instruction.boolean.name=Boolescher Ausdruck
+item.factorization:servo/component.fz.instruction.boolean.hint=Wahr oder Falsch
+item.factorization:servo/component.fz.instruction.entryaction.name=Eingangsaktion
+item.factorization:servo/component.fz.instruction.entryaction.hint=Instruktionsverarbeitung
 item.factorization:servo/component.fz.instruction.group.name=Unterprogramm
+item.factorization:servo/component.fz.instruction.countitems.name=Zähle Items
+item.factorization:servo/component.fz.instruction.countitems.hint=Wie viele gehaltene Items
+item.factorization:servo/component.fz.instruction.readredstone.name=Lies Redstone
+item.factorization:servo/component.fz.instruction.readredstone.hint=Schiebe Signalstärke
+item.factorization:servo/component.fz.instruction.repeatedInstruction.name=Wiederhole Instruktion
+item.factorization:servo/component.fz.instruction.repeatedInstruction.hint=Führe eine Instruktion\nauf jedem Block aus
+
 item.factorization:docbook.name=Das Factorization-Handbuch
+
+
+item.factorization:utiligoo.name=Zeug
+item.factorization:utiligoo.placed=Zeug platziert: %1$s
+item.factorization:utiligoo.wrongDimension=Bereits in einer anderen Welt verwendet
+item.factorization:utiligoo.min=  %1$s %2$s %3$s
+item.factorization:utiligoo.max=  %1$s %2$s %3$s
+
 
 death.attack.laceration.1=%1$s wurde zerschreddert
 death.attack.laceration.2=%1$s verlor einen Anstarrwettbewerb gegen die Wirbelnden Klingen des Todes
@@ -225,6 +228,13 @@ death.attack.laceration.3=%1$s wurde mit einem Block verwechselt
 death.attack.laceration.4=%1$s starb durch tausend Schnitte
 death.attack.laceration.5=%1$s-Erz wurde zu Dreckigem %1$s-Kies zermahlen
 death.attack.laceration.6=%1$s hat eine Monsterfalle entdeckt
+
+death.attack.scissors.1=%1$s ist mit einer Schere herumgerannt
+death.attack.scissors.2=%1$s hatte Papier gewählt
+death.attack.scissors.3=%1$s hat Edward umarmt
+
+death.attack.acidDrinker=%1$s trank Säure
+
 #The code theoretically supports .player variants of these, but I can't think of any I like.
 
 data.label.SocketShifter.mode.name=Transfermodus
@@ -243,3 +253,292 @@ data.label.PumpLiquids.suck.name=Sauge Flüssigkeiten
 data.label.PumpLiquids.target_speed.name=Zielgeschwindigkeit
 data.label.BlowEntities.suck.name=Windsaugen
 data.label.BlowEntities.target_speed.name=Zielgeschwindigkeit
+
+factorization.socket.noBackingInventory=Kein rückwärtiges Inventar
+factorization.socket.noOutputInventory=Kein Ausgangsinventar
+
+notify.point.toofar=Du kannst nicht so weit zeigen!
+
+death.attack.dseHit=%1$s wurde von einem Block zerdrückt
+
+item.factorization:colossusGuide.name=Verlorene Karte
+item.factorization:colossusGuide.hint=Führt wohl zu verlorenen Schätzen
+colossus.is.no_nearby=Es gibt keine §kXXXXXXX§r in der Nähe. Suche hinter den Grenzen der bekannten Welt.
+colossus.is.impossible=Es gibt keine §kXXXXXXX§r in dieser Dimension.
+colossus.is.creativeFound=Gefunden: %1$s
+colossus.is.above=Es gibt einen brüchigen Block irgendwo ober dir. Baue ihn ab!
+colossus.is.below=Es gibt einen brüchigen Block irgendwo unter dir. Baue ihn ab!
+colossus.is.mineit=Ja, genau dieser Block. Du hast ihn gefunden. Nun baue ihn ab.
+colossus.is.worldgen_crash=Irgendetwas ist bei der Generierung der Welt schiefgelaufen!
+
+colossus.compass.unit.m=Blöcke
+colossus.compass.unit.km=Kilometer
+colossus.compass.0=Reise %1$s %2$s westwärts
+colossus.compass.1=Reise %1$s %2$s südwestwärts
+colossus.compass.2=Reise %1$s %2$s südwärts
+colossus.compass.3=Reise %1$s %2$s südostwärts
+colossus.compass.4=Reise %1$s %2$s ostwärts
+colossus.compass.5=Reise %1$s %2$s nordostwärts
+colossus.compass.6=Reise %1$s %2$s nordwärts
+colossus.compass.7=Reise %1$s %2$s nordwestwärts
+
+tile.factorization:colossalBlock.0.name=§nKolossalmaske§r
+tile.factorization:colossalBlock.1.name=§nBrüchiger Kolossalblock§r
+tile.factorization:colossalBlock.2.name=§nKolossalarm§r
+tile.factorization:colossalBlock.3.name=§nKolossalbein§r
+tile.factorization:colossalBlock.4.name=§nKolossalblock§r
+tile.factorization:colossalBlock.5.name=§nKolossalauge§r (geschlossen)
+tile.factorization:colossalBlock.6.name=§k§nDunkles Kolossalherz§r
+tile.factorization:colossalBlock.7.name=§nKolossalauge§r
+tile.factorization:colossalBlock.8.name=§nKolossalblock§r
+tile.factorization:colossalBlock.9.name=§nBrüchige Kolossalmaske§r
+
+colossus.name.null=
+
+colossus.name.0=§kxnfgn nau fhxhqng zvefvv
+colossus.name.1=§kxa aoiaa t'dfa
+colossus.name.2=§kiiaiao be na poiufa stroanfg
+colossus.name.3=§kvn yb znaxh ph qracn
+colossus.name.4=༶ཤཀྵ༾༱ྤྮ༦༶
+colossus.name.5=ꗅꕰꕱꕡꔵꔴ ꗮꗢꗡ ꘈꗾꗛ ꖘꖗꗹ
+colossus.name.6=ቿኩዷቡ ሹጦፀ ኂዾዔረሰ
+colossus.name.7=ᏨᏛᎵᎭᎣᏬᏫᏪ
+colossus.name.8=थऊऎआ३ॼॣशऔ
+colossus.name.9=∀x∃y:x⊀y∧y∘ỹ↔∮★(x)dx > 0 ⊨ U
+colossus.name.10=Ⲭ⳦ⲆⲮⲖⳈ⳿ ⳧ⳤ ⳾
+colossus.name.11=شڳڤڄ٠لقخإ
+colossus.name.12=לֹןסִגֱ נֳװֹ
+colossus.name.13=ᜪᜫᜭᜩᜢᜣ
+colossus.name.14=��� ����� »���«
+colossus.name.15=������ ����, � ����
+colossus.name.16=*[a 2 [0 1] 2 [1 c d] [1 0] 2 [1 2 3] [1 0] 4 4 b]
+colossus.name.17=§n0.8.88.8.88.8.888.88.8.8888.8888.88888.888888888.8888888.888888.88888.8888.888.88.8.88.888.8888.8888.88888.888888.8888888.88888888.8888888.888888.88888.8888.888.88.8........
+colossus.name.18=▄▊▋██▄█▀ ▋▄▀ ▄  ▀▋▊▊▊ ▋▀█
+# http://en.wikipedia.org/wiki/List_of_cuneiform_signs ?
+
+colossus.name.count=19
+# How many colossus names there are
+
+colossus.name.true=§lVergessener Wächter§r
+
+noteblock.pitch.0=F♯0
+noteblock.pitch.1=G0
+noteblock.pitch.2=G♯0
+noteblock.pitch.3=A0
+noteblock.pitch.4=A♯0
+noteblock.pitch.5=H0
+noteblock.pitch.6=C1
+noteblock.pitch.7=C♯1
+noteblock.pitch.8=D1
+noteblock.pitch.9=D♯1
+noteblock.pitch.10=E1
+noteblock.pitch.11=F1
+noteblock.pitch.12=F♯1
+noteblock.pitch.13=G1
+noteblock.pitch.14=G♯1
+noteblock.pitch.15=A1
+noteblock.pitch.16=A♯1
+noteblock.pitch.17=H1
+noteblock.pitch.18=C2
+noteblock.pitch.19=C♯2
+noteblock.pitch.20=D2
+noteblock.pitch.21=D♯2
+noteblock.pitch.22=E2
+noteblock.pitch.23=F2
+noteblock.pitch.24=F♯2
+
+color.NO_COLOR=Keine Farbe
+color.WHITE=Weiß
+color.ORANGE=Orange
+color.MAGENTA=Magentafarben
+color.LIGHTBLUE=Hellblau
+color.YELLOW=Gelb
+color.LIME=Hellgrün
+color.PINK=Pink
+color.GRAY=Grau
+color.LIGHTGRAY=Hellgrau
+color.CYAN=Türkis
+color.PURPLE=Violett
+color.BLUE=Blau
+color.BROWN=Braun
+color.GREEN=Grün
+color.RED=Rot
+color.BLACK=Schwarz
+
+#blame neptunepink
+#If your language has a special form for particular numbers, such as the singular for 1, you can do 'fz.unit.name.unit.#=# specialform'
+#eg,
+#       factorization.unit.time.eons.2=two MILLION years!!!
+
+factorization.unit.time.eons=Äonen
+factorization.unit.time.eons.1=1 Äon
+factorization.unit.time.millenia=Jahrtausende
+factorization.unit.time.millenia.1=1 Jahrtausend
+factorization.unit.time.years=Jahre
+factorization.unit.time.years.1=1 Jahr
+factorization.unit.time.months=Monate
+factorization.unit.time.months.1=1 Monat
+factorization.unit.time.weeks=Wochen
+factorization.unit.time.weeks.1=1 Woche
+factorization.unit.time.irldays=Tage
+factorization.unit.time.irldays.1=1 Tag
+factorization.unit.time.hours=Stunden
+factorization.unit.time.hours.1=1 Stunde
+#skipping mcdays due to confusingness
+factorization.unit.time.minutes=Minuten
+factorization.unit.time.minutes.1=1 Minute
+factorization.unit.time.seconds=Sekunden
+factorization.unit.time.seconds.1=1 Sekunde
+factorization.unit.time.ticks=ticks
+factorization.unit.time.ticks.1=1 tick
+
+factorization.unit.distance.kilometers=Kilometer
+factorization.unit.distance.kilometers.1=1 Kilometer
+factorization.unit.distance.chunks=Chunks
+factorization.unit.distance.chunks.1=1 Chunk
+factorization.unit.distance.blocks=Blöcke
+factorization.unit.distance.blocks.1=1 Block
+factorization.unit.distance.pixels=Pixel
+factorization.unit.distance.pixels.1=1 Pixel
+
+tile.factorization:gargantuanBrick.name=Gewaltiger Ziegelstein
+tile.factorization:mantlerock.name=Mantelstein
+
+item.factorization:twistedBlock.name=Verdrehter Dunkeleisenblock
+
+item.factorization:darkIronChain.name=Kette
+item.factorization:darkIronChain.clear=Kette zurückgesetzt
+item.factorization:darkIronChain.setReal=Beginn verbunden
+item.factorization:darkIronChain.setShadow=Ende verbunden
+item.factorization:darkIronChain.invalid=Kann hier nicht angebracht werden
+item.factorization:darkIronChain.endLost=Kette gebrochen
+item.factorization:darkIronChain.finish=Kette verbunden
+item.factorization:darkIronChain.tooLong=Zu weit entfernt
+item.factorization:chainLink.name=Dunkeleisenkettenglied
+item.factorization:shortChain.name=Kurze Kette
+
+
+# I'm tired of accidentally grabbing silverfish blocks out of the creative menu; this makes it obvious.
+tile.monsterStoneEgg.stone.name=Silberfisch
+tile.monsterStoneEgg.cobble.name=Silberfisch
+tile.monsterStoneEgg.brick.name=Silberfisch
+tile.monsterStoneEgg.mossybrick.name=Silberfisch
+tile.monsterStoneEgg.crackedbrick.name=Silberfisch
+tile.monsterStoneEgg.chiseledbrick.name=Silberfisch
+
+
+item.factorization:spawnPoster.name=Poster
+item.factorization:spawnPoster.hint=Schleiche zum Zerstören
+
+item.factorization:leafBomb.name=Blätterbombe
+item.factorization:sap.name=Saft
+item.factorization:entheas.name=Entheas
+item.factorization:entheas.hint=Mit einem Anthropiegenerator erschaffen
+
+fzdoc.ic2.recipe.macerator=Zerkleinerer
+fzdoc.ic2.recipe.extractor=Extraktor
+fzdoc.ic2.recipe.compressor=Kompressor
+fzdoc.ic2.recipe.centrifuge=Thermalzentrifuge
+fzdoc.ic2.recipe.blockcutter=Blockschneidemaschine
+fzdoc.ic2.recipe.blastfurance=Hochofen
+#Spelling fail. Here's a fallback should it get fixed.
+fzdoc.ic2.recipe.blastFurnace=Hochofen
+fzdoc.ic2.recipe.recycler=Recycler
+fzdoc.ic2.recipe.metalformerExtruding=Metallformer (Extrudieren)
+fzdoc.ic2.recipe.metalformerCutting=Metallformer (Rollen)
+fzdoc.ic2.recipe.metalformerRolling=Metallformer (Schneiden)
+fzdoc.ic2.recipe.oreWashing=Erzwaschanlage
+fzdoc.ic2.recipe.cannerBottle=Abfüllmaschine (Abfüllen)
+fzdoc.ic2.recipe.cannerEnrich=Abfüllmaschine (Anreichern)
+fzdoc.ic2.recipe.matterAmplifier=Massefabrikator-Verstärkung
+fzdoc.ic2.recipe.scrapboxDrops=Schrottkasten
+fzdoc.ic2.recipe.recyclerBlacklist=Recycler (Blacklist)
+fzdoc.ic2.recipe.recyclerWhitelist=Recycler (Whitelist)
+fzdoc.ic2.recipe.advRecipes=Erweiterte Rezepte
+fzdoc.ic2.recipe.semiFluidGenerator=Semifluid-Generator
+fzdoc.ic2.recipe.FluidHeatGenerator=Flüssigkeits-Hitzegenerator
+
+
+
+item.factorization:potencyBottle.name=Ein Fläschchen Macht
+item.factorization:potencyBottle.wasted.name=Verschwendes Fläschchen Macht
+item.factorization:potencyBottle.wasted.hint=Nächstes Mal solltest du vielleicht nicht sterben.
+item.factorization:potencyBottle.foreign.name=Fremdes Fläschchen Macht
+item.factorization:potencyBottle.foreign.hint=Wurde von jemand anderem gemacht.
+tile.factorization:artifactForge.name=Artefaktschmiede
+
+factorization.forge.name=Name
+factorization.forge.lore=Geschichte
+factorization.forge.wait=Du fühlst keinerlei Inspiration. Vielleicht klappt es nächsten Monat besser.
+
+factorization.forge.err.notools.1=Kombiniere 2 identische
+factorization.forge.err.notools.2=Werkzeuge zu einem
+factorization.forge.err.notools.3=mächtigen Artefakt!
+factorization.forge.err.pair.1=Es müssen zwei identische
+factorization.forge.err.pair.2=Werkzeuge sein.
+factorization.forge.err.nottool.1=Dies sind keine Werkzeuge!
+factorization.forge.err.nobooks.1=Platziere Versauberte
+factorization.forge.err.nobooks.2=Bücher In den Ring.
+factorization.forge.err.noname.1=Alle Artefakte
+factorization.forge.err.noname.2=müssen Namen haben
+factorization.forge.err.potency.1=Du brauchst 3 Fläschchen
+factorization.forge.err.potency.2=Macht, gemacht aus
+factorization.forge.err.potency.3=Entheas in einer Flasche
+factorization.forge.err.potency.4=an einem Amboss für 35 XP.
+factorization.forge.err.lorehint.1=Gib dem Artefakt eine Geschichte!
+factorization.forge.err.lorehint.2='|' trennt Zeilen.
+factorization.forge.err.lorehint.3=Farbstoff darf hinzugefügt werden.
+
+factorization.artifact.announce=%s erschuf %s!
+factorization.artifact.announce.urist=%s, die lebende Legende, erschuf %s!
+factorization.artifact.cancreate=Du fühlst Inspiration in dir...
+factorization.artifact.canstillcreate=Du fühlst noch immer die Inspiration! Wo ist diese Artefaktschmiede?
+
+
+factorization.factoryBlock.LEGENDARIUM.name=Die Halle der Legenden
+factorization.factoryBlock.LEGENDARIUM.hint=Limit: Eine je Dimensionsart
+factorization.legendarium.nodroidsallowed=Wir dienen deinerlei hier nicht!
+factorization.legendarium.canremove=Dies Artefakt kann nun\nneu geschmiedet werden: {ITEM_NAME}
+factorization.legendarium.caninsert=Ein Artefakt kann ausrangiert werden
+factorization.legendarium.item_analysis.noitem=Klicke hier mit einem Artefakt
+factorization.legendarium.item_analysis.not_tool=Dies ist keine Werkzeug
+factorization.legendarium.item_analysis.not_broken=Dieses Artefakt ist noch\nnicht bereit, ausrangiert zu werden
+factorization.legendarium.item_analysis.not_artifact=Das ist kein Artefakt;\nArtefakte tragen Namen und Zauber
+factorization.legendarium.wait=Artefakte dürfen nicht geboten werden für %s
+factorization.legendarium.notfull=Es darf kein Artefakt entfernt werden,\nbis andere Artefakte hinzugefügt worden sind.
+factorization.legendarium.occupied=Die Halle der Legenden\na gibt es bereits,\nnahe %s
+factorization.legendarium.posters.populated=Posters befüllt\nSchlage zum Entfernen mit einem Poster.
+factorization.legendarium.posters.cleaned=Poster entfernt\nSchlage zum Füllen mit einem Poster.
+
+item.factorization:brokenArtifact=Scherben von ???
+item.factorization:brokenArtifact.shards.name=%s in Scherben
+item.factorization:brokenArtifact.repairhint.name=Schmiede es an einem Amboss neu\nBenötigt: %s
+
+#An item that can be eaten to access the FZ manual everywhere.
+#The name's a portmanteau on 'manual' and 'sandwich'.
+#Each time you die, you lose 1 manwich unit
+item.factorization:mansandwich.name=Manwich
+#Spicy variant; sets you on fire; lasts longer
+#gives 7 manwich units instead of 1
+item.factorization:mansandwich.spicy.name=Würziges Manwich
+#Tooltip when you haven't eaten one yet
+item.factorization:mansandwich.nom.delicious=Eine köstliche Symphonie aus Fleischgerichten!
+#Tooltip if player has only 1 manwich unit
+item.factorization:mansandwich.nom.once=Urgh, jetzt hattest du aber genug\n davon für mehr als den Rest deines Lebens
+#Tooltip if player has >1 manwich unit
+item.factorization:mansandwich.nom.many=Urgh, jetzt hattest du aber genug\n davon für mehr als den Rest mehrerer Leben
+#Chat message when player tries to use the manwich, but has no manwich units
+item.factorization:mansandwich.hungry=Du könntest jetzt wirklich ein Manwich vertragen
+#Chat message when a player tries to use a manwich, has eaten none, but has one in their inventory
+item.factorization:mansandwich.eatit=Oh, dieses Manwich sieht köstlich aus!
+
+item.factorization:waterTile.name=Wasserblock
+item.factorization:waterTile.hint=Wie arbeitet man mit reinem Wasser?\nNutze die Kompressionswerkbank!
+item.factorization:lavaTile.name=Lavablock
+item.factorization:lavaTile.hint=Arbeiten mit feuriger Lava?\nNun möglich mit einer Kompressionswerkbank!
+
+item.factorization:charge/wire_leader.name=Abgeflachtes Kupferkabel
+factorization:charge/flat/measure=Energie: %s
+factorization:charge/sparkling.info=Energie: %s\n(Gold ist ziemlich leitfähig!)
+factorization.factoryBlock.LIGHTNING_ROD.name=Blitzableiter
+factorization.factoryBlock.LIGHTNING_ROD.hint=Verwende ein Schaf oder Wollblöcke,\num Ionisierung zu verursachen.
